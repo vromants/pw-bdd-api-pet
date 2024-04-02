@@ -1,0 +1,24 @@
+{
+	"name": "pw-bdd-api",
+	"version": "1.0.0",
+	"description": "pw-bdd-api-test-project",
+	"scripts": {
+		"test": "bddgen && playwright test",
+		"check": "npx @biomejs/biome check --apply .",
+		"prepare": "husky"
+	},
+	"author": "Vitalii Romantosv",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "1.6.3",
+		"@cucumber/cucumber": "^10.3.2",
+		"@playwright/test": "^1.42.1",
+		"@types/node": "^20.11.30",
+		"envalid": "^8.0.0",
+		"factory.ts": "^1.4.1",
+		"husky": "^9.0.11",
+		"openapi-typescript": "^6.7.5",
+		"playwright-bdd": "^6.0.3",
+		"response-openapi-validator": "^1.2.0"
+	}
+}
